@@ -35,4 +35,10 @@ return [
         ],
     ],
 
+    'wordpress' => [
+        'api_base_url' => env('WORDPRESS_API_BASE_URL'),
+        'api_username' => env('WORDPRESS_API_USERNAME'), // This should be the WP admin's email/username
+        'api_application_password' => env('WORDPRESS_API_APPLICATION_PASSWORD'), // This is the application password for the above admin
+    ],
+
 ];
